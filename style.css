@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #eee;
+    width:100vw ;
+    height: 100vh;
+    flex-direction: column;
+    display: grid;
+}
+h1{
+    color: white;
+}
+
+header{
+    width: 100%;
+    height:100px ;
+    background-color:#07084e ;
+    display: flex ;
+    flex-direction: row;
+}
+
+#div_logo{
+    background-color: transparent;
+    width: 250;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;  
+}
+
+#logo_ECF{
+    width: 100px;
+    height:100px ;
+    margin-right: 10px;
+}
+
+
+nav{
+    background-color: transparent;
+    height: 100%;
+    width: auto;
+    margin-left: auto ;
+    margin-right: 30px;
+}
+
+nav ul {
+    height: 100%;
+    width: auto;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+
+}
+nav ul li {
+    display: flex;
+    margin-inline: 20px;
+    font-size: larger;
+    
+}
+
+nav ul li a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+section{
+    margin-top: 20px;
+    display: flex;
+    position: absolute;
+    background-color: transparent;
+    width: 50%;
+    height: auto;
+    top: 100px;
+}
+
+#ECFSC {
+    font-size: 80px;
+    font-style: initial;
+    margin-top: 40px;
+    margin-left: 39px;
+}
+
+#notamec{
+    font-size: 20px;
+    margin-top: 40px;
+   margin-left: 40px;
+}
+
+#paragrafo1{
+    display: flex;
+    margin-left: 40px;
+    font-size: 20px;
+    max-width: 700px;
+}
+#B1{
+    flex-direction: row;
+    color:white;
+    font-style: initial;
+    border: 1px solid #07084e;
+    padding-inline: 30px;
+    padding-block: 20px;
+    background-color: #07084e;
+    border-radius: 400px;
+    margin-left: 60px ;
+    margin-right: auto;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-inline: 40px;
+}
+#B2{
+    flex-direction: row;
+    color:#07084e;
+    font-style: initial;
+    border: 1px solid #07084e;
+    padding-inline: 30px;
+    padding-block: 20px;
+    background-color: white;
+    margin-left: auto ;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 400px ;
+    font-size: 20px;
+    margin-inline: 40px;
+}
+#foto_ST{
+    width:100px ;
+    height: 100px;
+}
